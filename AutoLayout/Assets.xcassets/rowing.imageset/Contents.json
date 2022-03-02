@@ -1,10 +1,12 @@
 {
   "images" : [
     {
+      "filename" : "rowing@1x (1).png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
+      "filename" : "rowing@2x (1).png",
       "idiom" : "universal",
       "scale" : "2x"
     },
