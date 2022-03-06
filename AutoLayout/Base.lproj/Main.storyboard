@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This is an icon of a rowing man " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hlH-3i-1Wl">
-                                <rect key="frame" x="88" y="443" width="238" height="21"/>
+                                <rect key="frame" x="88" y="400" width="238" height="241"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -26,7 +26,7 @@
                                 <rect key="frame" x="183" y="344" width="48" height="48"/>
                             </imageView>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="left" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5q3-fg-ssz">
-                                <rect key="frame" x="201" y="649" width="51" height="31"/>
+                                <rect key="frame" x="182.66666666666666" y="649" width="51" height="31"/>
                                 <connections>
                                     <action selector="switchDidChange:" destination="BYZ-38-t0r" eventType="valueChanged" id="Zvt-1i-euG"/>
                                 </connections>
@@ -36,10 +36,11 @@
                         <color key="backgroundColor" name="test"/>
                         <constraints>
                             <constraint firstItem="crE-H3-u60" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="AKh-OH-Hig"/>
-                            <constraint firstItem="5q3-fg-ssz" firstAttribute="top" secondItem="hlH-3i-1Wl" secondAttribute="bottom" constant="185" id="S0k-Yv-ZLW"/>
-                            <constraint firstItem="hlH-3i-1Wl" firstAttribute="top" secondItem="crE-H3-u60" secondAttribute="bottom" constant="51" id="T2r-gR-bWC"/>
+                            <constraint firstItem="5q3-fg-ssz" firstAttribute="top" secondItem="hlH-3i-1Wl" secondAttribute="bottom" constant="8" id="S0k-Yv-ZLW"/>
+                            <constraint firstItem="hlH-3i-1Wl" firstAttribute="top" secondItem="crE-H3-u60" secondAttribute="bottom" constant="8" id="T2r-gR-bWC"/>
                             <constraint firstItem="crE-H3-u60" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="eUm-g3-ugz"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="5q3-fg-ssz" secondAttribute="trailing" constant="164" id="hbI-Cs-xvk"/>
+                            <constraint firstItem="5q3-fg-ssz" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="exB-hg-fAx"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="5q3-fg-ssz" secondAttribute="bottom" constant="56" id="mME-kq-RJY"/>
                             <constraint firstItem="hlH-3i-1Wl" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="vuU-ZU-8R2"/>
                         </constraints>
                     </view>
